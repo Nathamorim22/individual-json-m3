@@ -1,12 +1,10 @@
-const js = require('json-server');
-const create = js.create();
-const router = js.router("db.json");
-const defaults = js.defaults();
+const jsonServer = require('json-server')
+const server = jsonServer.create()
+const router = jsonServer.router('db.json')
+const middlewares = jsonServer.defaults()
 
-
-create.use(defaults);
-create.use(js.bodyParser);
-
-create.use(router)
-
-create.listen(3000,() => {console.log("parábens, funcionou!")});
+server.use(middlewares)
+server.use(router)
+server.listen(3000, () => {
+  console.log('JSON Server is running')
+})
