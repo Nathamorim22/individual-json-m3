@@ -1,0 +1,71 @@
+{
+    "Cabeleireiro": [
+     {
+      "TelefoneId": 21981003344,
+      "Funcionamento": "Terça - Domingo, 9h-19h",
+      "Endereço": "Rua José Lourenço, 2478. Nova Iguaçu",
+      "id": 1
+     } 
+    ],
+
+  "Funcionarios": [
+    {
+      "nome": "Marcos",
+      "cargo": "gerente",
+      "Id": 1010,
+      "Salario": 5000
+    },
+    {
+        "nome": "Matheus",
+        "cargo": "recepção",
+        "Id": 2020,
+        "Salario": 1200
+      },
+      {
+          "nome": "João",
+          "cargo": "cabeleireiro",
+          "Id": 3030,
+          "Salario": 4000
+        },
+        {
+            "nome": "Miguel",
+            "cargo": "limpeza",
+            "Id": 4040,
+            "Salario": 1000
+          }
+    ],
+
+  "Cliente":[
+
+    {
+      "nome": "Nathalia",
+      "procedimento": "corte em camadas",
+      "data": "22/12",
+      "celular": "21999999999",
+      "id":100
+      
+    },
+    {
+      "nome": "Gabrielle",
+      "procedimento": "corte assimétrico",
+      "data": "23/12",
+      "celular": "21999999998",
+      "id":200
+    },
+    {
+      "nome": "Christine",
+      "procedimento": "corte repicado",
+      "data": "22/12",
+      "celular": "21999999997",
+      "id":300
+    },
+    {
+      "nome": "Mylena",
+      "procedimento": "corte shaggy",
+      "data": "22/12",
+      "celular": "21999999996",
+      "id":400
+    }
+
+  ]
+}
