@@ -1,71 +1,84 @@
 {
-    "Cabeleireiro": [
-     {
-      "TelefoneId": 21981003344,
+  "Salão de Beleza": [
+    {
+      "id": 1,
+      "Telefone": 21981003344,
       "Funcionamento": "Terça - Domingo, 9h-19h",
-      "Endereço": "Rua José Lourenço, 2478. Nova Iguaçu",
-      "id": 1
-     } 
-    ],
-
+      "Endereço": "Rua José Lourenço, 2478. Nova Iguaçu"
+    },
+    {
+      "id": 9,
+      "Telefone": 2190003344,
+      "Funcionamento": "Terça - Domingo, 9h-19h",
+      "Endereço": "Rua Deocleciano, 2. Nova Iguaçu"
+    },
+    {
+      "id": 8,
+      "Telefone": 21981003377,
+      "Funcionamento": "Terça - Domingo, 9h-19h",
+      "Endereço": "Rua Luis Coutinho, 278. Nova Iguaçu"
+    },
+    {
+      "id": 6,
+      "Telefone": 21981002222,
+      "Funcionamento": "Terça - Domingo, 9h-19h",
+      "Endereço": "Rua Amadeu Lara, 248. Nova Iguaçu"
+    }
+  ],
   "Funcionarios": [
     {
+      "Id": 1010,
       "nome": "Marcos",
       "cargo": "gerente",
-      "Id": 1010,
       "Salario": 5000
     },
     {
-        "nome": "Matheus",
-        "cargo": "recepção",
-        "Id": 2020,
-        "Salario": 1200
-      },
-      {
-          "nome": "João",
-          "cargo": "cabeleireiro",
-          "Id": 3030,
-          "Salario": 4000
-        },
-        {
-            "nome": "Miguel",
-            "cargo": "limpeza",
-            "Id": 4040,
-            "Salario": 1000
-          }
-    ],
-
-  "Cliente":[
-
+      "Id": 2020,
+      "nome": "Matheus",
+      "cargo": "recepção",
+      "Salario": 1200
+    },
     {
+      "Id": 3030,
+      "nome": "João",
+      "cargo": "cabeleireiro",
+      "Salario": 4000
+    },
+    {
+      "Id": 4040,
+      "nome": "Miguel",
+      "cargo": "limpeza",
+      "Salario": 1000
+    }
+  ],
+  "Cliente": [
+    {
+      "id": 100,
       "nome": "Nathalia",
       "procedimento": "corte em camadas",
       "data": "22/12",
-      "celular": "21999999999",
-      "id":100
-      
+      "celular": "21999999999"
     },
     {
+      "id": 200,
       "nome": "Gabrielle",
       "procedimento": "corte assimétrico",
       "data": "23/12",
-      "celular": "21999999998",
-      "id":200
+      "celular": "21999999998"
     },
     {
+      "id": 300,
       "nome": "Christine",
       "procedimento": "corte repicado",
       "data": "22/12",
-      "celular": "21999999997",
-      "id":300
+      "celular": "21999999997"
     },
     {
+      "id": 400,
       "nome": "Mylena",
       "procedimento": "corte shaggy",
       "data": "22/12",
-      "celular": "21999999996",
-      "id":400
+      "celular": "21999999996"
     }
-
   ]
 }
